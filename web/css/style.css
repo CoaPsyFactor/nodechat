@@ -1,0 +1,144 @@
+.selected {
+    background-color: lightblue !important;
+}
+
+.btn-default {
+    border-radius: 0 !important;
+}
+
+div.requests {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+}
+
+.close-modal {
+    cursor: pointer;
+}
+
+div.requests li > i {
+    margin-left: 5px;
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.request-user-list li > i {
+    margin-left: 5px;
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.request-ok {
+    border: 2px dotted rgba(70, 150, 70, 0.9) !important;
+    color: rgba(70, 150, 70, 0.9) !important;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(20, 200, 20, 0.1) !important;
+}
+
+.accept {
+    color: green;
+
+}
+
+.decline {
+    color: darkred;
+}
+
+.wrong-credentials {
+    display: none;
+}
+
+.server-error {
+    display: none;
+}
+
+.add-user-list-inside {
+    height: 450px;
+    padding: 10px !important;
+}
+
+.add-user-list-inside input {
+    width: 100%;
+}
+
+.add-user-list {
+    display: none;
+    background-color: rgba(180, 180, 180, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    height: 500px;
+    min-height: 500px !important;
+    position: absolute !important;
+    z-index: 99999;
+}
+
+.no-messages {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+}
+
+ul.messages .sender {
+    padding: 5px 30px;
+    text-align: right;
+}
+
+ul.messages .sender .badge {
+    float: left;
+}
+
+ul.messages .not-sender {
+    padding: 5px 30px;
+    text-align: left;
+}
+
+ul.messages .not-sender .badge {
+    float: right;
+}
+
+.sender {
+    text-align: right;
+}
+
+.not-sender .badge {
+    float: left;
+}
+
+.messages li {
+    width: 100%;
+}
+
+.logged {
+    margin-top: 40px;
+}
+
+.friends {
+    height: 490px;
+}
+
+ul.friends {
+    overflow-y: scroll;
+    border: 1px solid rgba(180, 180, 180, 0.3);
+}
+
+.friends li {
+    cursor: pointer;
+}
+
+.friends li:hover {
+    background-color: silver;
+}
+
+.message-area {
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.message-time {
+    text-align: center;
+    color: grey;
+    font-size: 10px;
+}

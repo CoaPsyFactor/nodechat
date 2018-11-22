@@ -1,0 +1,19 @@
+{
+  "name": "Anon-Chat",
+  "description": "Simple Chat System",
+  "author": "Aleksandar Zivanovic <coapsyfactor@gmail.com>",
+  "dependencies": {
+    "express": "4.x",
+    "socket.io": "1.x",
+    "mysql": "*",
+    "htmlspecialchars": "*",
+    "express-session": "*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "node-uuid": "*",
+    "crypto-js": "*",
+    "multer": "*",
+    "gm": "*"
+  },
+  "engine": "node 0.12.x"
+}

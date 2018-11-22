@@ -1,0 +1,22 @@
+<div class="col-sm-offset-4 col-sm-4 init">
+    <form class="login">
+        <div class="wrong-credentials alert alert-danger" role="alert">
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            Korisnik nije pronadjen.
+        </div>
+        <div class="server-error alert alert-danger" role="alert">
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            Greska na serveru, pokusaj opet za minut.
+        </div>
+        <div class="form-group">
+            <label for="alias">Korisnicko ime:</label>
+            <input name="alias" type="text" class="form-control" id="alias">
+        </div>
+        <div class="form-group">
+            <label for="password">Loazinka:</label>
+            <input name="secret" type="password" class="form-control" id="password">
+        </div>
+        <button class="btn btn-primary pull-right" id="submit" type="submit">Ulaz</button>
+    </form>
+</div>
+<script type="text/javascript" src="js/src/loginController.js"></script>
